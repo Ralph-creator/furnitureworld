@@ -1,0 +1,61 @@
+.footer {
+    position: relative;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.footer logo{
+    flex: 1;
+}
+
+.submit-btn-txt {
+    padding: 12px 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(126, 83, 9);
+}
+
+.submit-btn-txt:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.contact-style li {
+    list-style: none;
+}
+
+.Fst-foot li {
+    list-style: none;
+}
+
+.Fst-foot a {
+    text-decoration: none;
+    color: black;
+}
+
+.email-input {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+@media screen and (min-width: 751px) and (max-width: 1000px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 750px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
