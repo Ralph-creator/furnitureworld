@@ -52,6 +52,9 @@ header a{
     list-style: none;
    margin-right: 125px;
  }
+ .nav li:hover{
+  color: brown;
+ }
 
 .sidebar-toggle {
     display: none;
